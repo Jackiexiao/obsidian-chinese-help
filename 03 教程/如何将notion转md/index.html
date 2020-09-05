@@ -1,0 +1,4158 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>如何将notion转md - Obsidian群分享</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Obsidian群分享" class="md-header-nav__button md-logo" aria-label="Obsidian群分享">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Obsidian群分享
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              如何将notion转md
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/" class="md-tabs__link">
+          00 新手入门
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../01%20%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/01%20%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/" class="md-tabs__link">
+          01 笔记方法
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/" class="md-tabs__link">
+          02 名词解释
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../03%20%E6%95%99%E7%A8%8B/" class="md-tabs__link md-tabs__link--active">
+          03 教程
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../04%20%E8%B5%84%E6%BA%90/04%20%E8%B5%84%E6%BA%90/" class="md-tabs__link">
+          04 资源
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" class="md-tabs__link">
+          05 常见问题
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/" class="md-tabs__link">
+          06 大讨论
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/07%20%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/" class="md-tabs__link">
+          07 信息源与贡献者
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../08%20%E6%96%87%E7%AB%A0/08%20%E6%96%87%E7%AB%A0/" class="md-tabs__link">
+          08 文章
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../09%20%E7%A2%8E%E8%AE%B0/09%20%E7%A2%8E%E8%AE%B0/" class="md-tabs__link">
+          09 碎记
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../10%20%E5%B7%A5%E5%85%B7/10%20%E5%B7%A5%E5%85%B7/" class="md-tabs__link">
+          10 工具
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/" class="md-tabs__link">
+          11 高阶教程
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/" class="md-tabs__link">
+          12 笔记模板
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../13%20obsidian/13%20obsidian/" class="md-tabs__link">
+          13 obsidian
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../14%20CSS%E4%B8%BB%E9%A2%98/14%20CSS%E4%B8%BB%E9%A2%98/" class="md-tabs__link">
+          14 CSS主题
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../99%20%E5%AD%98%E6%A1%A3/99%20%E5%AD%98%E6%A1%A3/" class="md-tabs__link">
+          99 存档
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Obsidian群分享" class="md-nav__button md-logo" aria-label="Obsidian群分享">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Obsidian群分享
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Cerveau/" title="Cerveau" class="md-nav__link">
+      Cerveau
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%84%9A%E6%B3%A8/" title="如何插入脚注" class="md-nav__link">
+      如何插入脚注
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../%E8%BF%81%E7%A7%BB%E6%80%A7/" title="迁移性" class="md-nav__link">
+      迁移性
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      00 新手入门
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="00 新手入门" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        00 新手入门
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/" title="00 新手入门" class="md-nav__link">
+      00 新手入门
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.01%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%E7%9A%84%E9%AB%98%E9%98%B6%E5%86%85%E5%AE%B9/" title="00.01 新手入门的高阶内容" class="md-nav__link">
+      00.01 新手入门的高阶内容
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.02%20%E7%89%88%E6%9D%83%E7%94%B3%E6%98%8E/" title="00.02 版权申明" class="md-nav__link">
+      00.02 版权申明
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.03%20%E5%85%B3%E4%BA%8E%E6%9C%AC%E6%96%87%E6%A1%A3%E7%9A%84%E8%AF%B4%E6%98%8E/" title="00.03 关于本文档的说明" class="md-nav__link">
+      00.03 关于本文档的说明
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.04%20%E4%BD%BF%E7%94%A8%E9%A1%BB%E7%9F%A5/" title="00.04 使用须知" class="md-nav__link">
+      00.04 使用须知
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.05%20%E6%9C%AC%E4%BA%BA%E5%AF%B9%E6%96%B0%E6%89%8B%E7%9A%84%E5%BB%BA%E8%AE%AE/" title="00.05 本人对新手的建议" class="md-nav__link">
+      00.05 本人对新手的建议
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.06%20obsidian%E7%9A%84%E6%94%B6%E8%B4%B9%E6%94%BF%E7%AD%96/" title="00.06 obsidian的收费政策" class="md-nav__link">
+      00.06 obsidian的收费政策
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.07%20obsidian%E5%BC%80%E5%8F%91%E8%B7%AF%E7%BA%BF%E5%9B%BE/" title="00.07 obsidian开发路线图" class="md-nav__link">
+      00.07 obsidian开发路线图
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.08%20%E7%AE%80%E5%8D%95%E7%9A%84%E9%97%AE%E7%AD%94%EF%BC%88Q%26A%EF%BC%89/" title="00.08 简单的问答（Q&A）" class="md-nav__link">
+      00.08 简单的问答（Q&A）
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.09%20%E7%9F%B3%E5%A2%A8%E6%96%87%E6%A1%A3%E8%BF%81%E7%A7%BB%E8%AE%A1%E5%88%92/" title="00.09 石墨文档迁移计划" class="md-nav__link">
+      00.09 石墨文档迁移计划
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.10%20obsidian%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/" title="00.10 obsidian帮助文档" class="md-nav__link">
+      00.10 obsidian帮助文档
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.11%20obsidian%E7%88%B1%E5%A5%BD%E8%80%85QQ%E7%BE%A4/" title="00.11 obsidian爱好者QQ群" class="md-nav__link">
+      00.11 obsidian爱好者QQ群
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.11.01%20%E7%BE%A4%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%E6%B8%A0%E9%81%93/" title="00.11.01 群资源分享渠道" class="md-nav__link">
+      00.11.01 群资源分享渠道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.11.02%20%E5%85%B3%E4%BA%8EQQ%E7%BE%A4%E4%BA%BA%E6%BB%A1%E8%B8%A2%E4%BA%BA%E7%9A%84%E8%AF%B4%E6%98%8E/" title="00.11.02 关于QQ群人满踢人的说明" class="md-nav__link">
+      00.11.02 关于QQ群人满踢人的说明
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.11.03%20QQ%E7%BE%A4%E9%87%8C%E6%9C%89%E5%BC%80%E5%8F%91%E8%80%85%E5%90%97/" title="00.11.03 QQ群里有开发者吗" class="md-nav__link">
+      00.11.03 QQ群里有开发者吗
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.12%20%E5%85%B3%E4%BA%8Eobsidian%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BF%A1%E6%81%AF/" title="00.12 关于obsidian的一些信息" class="md-nav__link">
+      00.12 关于obsidian的一些信息
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.13%20%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF/" title="00.13 提问的艺术" class="md-nav__link">
+      00.13 提问的艺术
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.14%20%E5%A6%82%E6%9E%9C%E8%BD%AF%E4%BB%B6%E4%B8%8D%E9%80%82%E5%90%88%E4%BD%A0/" title="00.14 如果软件不适合你" class="md-nav__link">
+      00.14 如果软件不适合你
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.15%20%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BAinsider%EF%BC%88%E5%86%85%E6%B5%8B%E8%80%85%EF%BC%89/" title="00.15 如何成为insider（内测者）" class="md-nav__link">
+      00.15 如何成为insider（内测者）
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      01 笔记方法
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="01 笔记方法" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        01 笔记方法
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../01%20%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/01%20%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/" title="01 笔记方法" class="md-nav__link">
+      01 笔记方法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../01%20%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/01.01%20%E6%88%91%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%96%87%E7%AB%A0/" title="01.01 我个人的文章" class="md-nav__link">
+      01.01 我个人的文章
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      02 名词解释
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="02 名词解释" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        02 名词解释
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/" title="02 名词解释" class="md-nav__link">
+      02 名词解释
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/02.01%20%E5%B8%B8%E8%A7%81%E7%9A%84%E5%90%8D%E8%AF%8D%E7%BC%A9%E5%86%99/" title="02.01 常见的名词缩写" class="md-nav__link">
+      02.01 常见的名词缩写
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/Evergreen%20notes/" title="Evergreen notes" class="md-nav__link">
+      Evergreen notes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/IMF%E7%AC%94%E8%AE%B0%E6%B3%95/" title="IMF笔记法" class="md-nav__link">
+      IMF笔记法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/LaTeX/" title="LaTeX" class="md-nav__link">
+      LaTeX
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/MOC/" title="MOC" class="md-nav__link">
+      MOC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/Markdown/" title="Markdown" class="md-nav__link">
+      Markdown
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/PARA/" title="PARA" class="md-nav__link">
+      PARA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/PIM/" title="PIM" class="md-nav__link">
+      PIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/PKM/" title="PKM" class="md-nav__link">
+      PKM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/TOC/" title="TOC" class="md-nav__link">
+      TOC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/css/" title="Css" class="md-nav__link">
+      Css
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/electron/" title="Electron" class="md-nav__link">
+      Electron
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/html/" title="Html" class="md-nav__link">
+      Html
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/obsidian/" title="Obsidian" class="md-nav__link">
+      Obsidian
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/zk%E7%AC%94%E8%AE%B0%E6%B3%95/" title="Zk笔记法" class="md-nav__link">
+      Zk笔记法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E4%B8%AA%E4%BA%BA%E5%81%8F%E8%A7%81/" title="个人偏见" class="md-nav__link">
+      个人偏见
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%8D%A1%E7%89%87%E5%86%99%E4%BD%9C/" title="卡片写作" class="md-nav__link">
+      卡片写作
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%8D%A2%E6%9B%BC%E5%BA%8F%E5%8F%B7/" title="卢曼序号" class="md-nav__link">
+      卢曼序号
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%8D%A2%E6%9B%BC%E7%AC%94%E8%AE%B0%E6%B3%95/" title="卢曼笔记法" class="md-nav__link">
+      卢曼笔记法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%8F%8C%E5%90%91%E9%93%BE%E6%8E%A5/" title="双向链接" class="md-nav__link">
+      双向链接
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%8F%8C%E9%93%BE/" title="双链" class="md-nav__link">
+      双链
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%9D%97%E5%BC%95%E7%94%A8/" title="块引用" class="md-nav__link">
+      块引用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E5%B8%B8%E9%9D%92%E7%AC%94%E8%AE%B0/" title="常青笔记" class="md-nav__link">
+      常青笔记
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E6%97%B6%E9%97%B4%E6%88%B3/" title="时间戳" class="md-nav__link">
+      时间戳
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="正则表达式" class="md-nav__link">
+      正则表达式
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87/" title="知识卡片" class="md-nav__link">
+      知识卡片
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E8%BD%AC%E4%B9%89%E7%AC%A6/" title="转义符" class="md-nav__link">
+      转义符
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02%20%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/%E9%81%93%E5%99%A8%E6%9C%AF/" title="道器术" class="md-nav__link">
+      道器术
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" checked>
+    
+    <label class="md-nav__link" for="nav-8">
+      03 教程
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="03 教程" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        <span class="md-nav__icon md-icon"></span>
+        03 教程
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../03%20%E6%95%99%E7%A8%8B/" title="03 教程" class="md-nav__link">
+      03 教程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../obsidian%E7%9A%84%E6%8F%92%E4%BB%B6/" title="Obsidian的插件" class="md-nav__link">
+      Obsidian的插件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A4%A7%E7%BA%B2%E6%8F%92%E4%BB%B6/" title="大纲插件" class="md-nav__link">
+      大纲插件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E5%BA%93%28vault%29/" title="如何合并两个库(vault)" class="md-nav__link">
+      如何合并两个库(vault)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5obsidian%E6%95%B0%E6%8D%AE%E5%BA%93/" title="如何同步obsidian数据库" class="md-nav__link">
+      如何同步obsidian数据库
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%90%AF%E5%8A%A8%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/" title="如何启动中文界面" class="md-nav__link">
+      如何启动中文界面
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%9C%A8%E5%AF%BC%E5%87%BA%E6%97%B6%E5%8E%BB%E9%99%A4%E5%8F%8C%E9%93%BE%E5%92%8Cmarkdown/" title="如何在导出时去除双链和markdown" class="md-nav__link">
+      如何在导出时去除双链和markdown
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%A3%80%E7%B4%A2md%E7%9A%84%E6%96%87%E4%BB%B6%E6%A0%87%E9%A2%98/" title="如何实现检索md的文件标题" class="md-nav__link">
+      如何实现检索md的文件标题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%AF%BC%E5%87%BA%E4%B8%BAPDF/" title="如何导出为PDF" class="md-nav__link">
+      如何导出为PDF
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%B0%86OneNote%E8%BD%ACmd/" title="如何将OneNote转md" class="md-nav__link">
+      如何将OneNote转md
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%B0%86RoamResearch%E5%AF%BC%E5%85%A5obsidian/" title="如何将RoamResearch导入obsidian" class="md-nav__link">
+      如何将RoamResearch导入obsidian
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="如何将notion转md" class="md-nav__link md-nav__link--active">
+      如何将notion转md
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%B0%86tiddlywiki%E8%BD%ACmd/" title="如何将tiddlywiki转md" class="md-nav__link">
+      如何将tiddlywiki转md
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%B0%86%E7%BD%91%E9%A1%B5web%E8%BD%ACmd/" title="如何将网页web转md" class="md-nav__link">
+      如何将网页web转md
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%B0%86%E8%A1%A8%E6%A0%BC%E8%BD%ACmd/" title="如何将表格转md" class="md-nav__link">
+      如何将表格转md
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5Latex%E5%85%AC%E5%BC%8F/" title="如何快速插入Latex公式" class="md-nav__link">
+      如何快速插入Latex公式
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0obsidian%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95/" title="如何找到obsidian安装目录" class="md-nav__link">
+      如何找到obsidian安装目录
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E4%B8%8A%E6%A0%87%E5%92%8C%E4%B8%8B%E6%A0%87/" title="如何插入上标和下标" class="md-nav__link">
+      如何插入上标和下标
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/" title="如何插入代码块" class="md-nav__link">
+      如何插入代码块
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E5%88%86%E9%9A%94%E7%BA%BF/" title="如何插入分隔线" class="md-nav__link">
+      如何插入分隔线
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" title="如何插入图片" class="md-nav__link">
+      如何插入图片
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E6%96%87%E4%BB%B6/" title="如何插入文件" class="md-nav__link">
+      如何插入文件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%B6%85%E9%93%BE%E6%8E%A5/" title="如何插入超链接" class="md-nav__link">
+      如何插入超链接
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E5%8D%87%E7%BA%A7%E6%9B%B4%E6%96%B0/" title="如何查看升级更新" class="md-nav__link">
+      如何查看升级更新
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E7%BB%99note%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9%E6%8E%92%E5%BA%8F/" title="如何给note和文件夹排序" class="md-nav__link">
+      如何给note和文件夹排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E7%BB%99obsidian%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%EF%BC%88CSS%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%EF%BC%89/" title="如何给obsidian更换主题（CSS文件的应用）" class="md-nav__link">
+      如何给obsidian更换主题（CSS文件的应用）
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AEtypora%E4%BD%9C%E4%B8%BA%E7%BC%96%E8%BE%91%E5%99%A8/" title="如何设置typora作为编辑器" class="md-nav__link">
+      如何设置typora作为编辑器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E9%99%84%E4%BB%B6%E6%96%87%E4%BB%B6%E5%A4%B9/" title="如何设置附件文件夹" class="md-nav__link">
+      如何设置附件文件夹
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%A6%82%E4%BD%95%E8%BF%81%E7%A7%BB%E5%88%B0%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%9A%84%E5%8F%91%E5%B8%83%E5%B9%B3%E5%8F%B0/" title="如何迁移到微信公众号的发布平台" class="md-nav__link">
+      如何迁移到微信公众号的发布平台
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-30" type="checkbox" id="nav-8-30">
+    
+    <label class="md-nav__link" for="nav-8-30">
+      简单的Q&A
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="简单的Q&A" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-30">
+        <span class="md-nav__icon md-icon"></span>
+        简单的Q&A
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%AE%80%E5%8D%95%E7%9A%84Q%26A/%E5%8F%AF%E4%BB%A5%E6%B7%BB%E5%8A%A0word%E4%B8%BA%E9%99%84%E4%BB%B6%E5%90%97/" title="可以添加word为附件吗" class="md-nav__link">
+      可以添加word为附件吗
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      04 资源
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="04 资源" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon"></span>
+        04 资源
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/04%20%E8%B5%84%E6%BA%90/" title="04 资源" class="md-nav__link">
+      04 资源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/04.01%20%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/" title="04.01 视频资源" class="md-nav__link">
+      04.01 视频资源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/04.02%20%E6%96%87%E5%AD%97%E8%B5%84%E6%BA%90/" title="04.02 文字资源" class="md-nav__link">
+      04.02 文字资源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/04.03%20%E7%BD%91%E7%AB%99%E8%B5%84%E6%BA%90/" title="04.03 网站资源" class="md-nav__link">
+      04.03 网站资源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/04.04%20%E8%AE%BA%E6%96%87%E8%B5%84%E6%BA%90/" title="04.04 论文资源" class="md-nav__link">
+      04.04 论文资源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/04.05%20%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/" title="04.05 使用心得" class="md-nav__link">
+      04.05 使用心得
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/How%20to%20take%20smart%20note%E7%BF%BB%E8%AF%91%E7%89%88/" title="How to take smart note翻译版" class="md-nav__link">
+      How to take smart note翻译版
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/Html%E5%92%8CCSS%E7%9A%84%E5%85%A5%E9%97%A8%E7%BD%91%E7%AB%99/" title="Html和CSS的入门网站" class="md-nav__link">
+      Html和CSS的入门网站
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/obsidian%E5%AE%98%E6%96%B9%E5%B9%B3%E5%8F%B0/" title="Obsidian官方平台" class="md-nav__link">
+      Obsidian官方平台
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95%E7%9A%84%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/" title="关于笔记方法的视频资源" class="md-nav__link">
+      关于笔记方法的视频资源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04%20%E8%B5%84%E6%BA%90/%E8%A7%86%E9%A2%91UP%E4%B8%BB/" title="视频UP主" class="md-nav__link">
+      视频UP主
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      05 常见问题
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="05 常见问题" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        <span class="md-nav__icon md-icon"></span>
+        05 常见问题
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" title="05 常见问题" class="md-nav__link">
+      05 常见问题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88markdown%E8%AF%AD%E6%B3%95%E5%8A%A0%E7%B2%97%E5%A4%B1%E6%95%88/" title="为什么markdown语法加粗失效" class="md-nav__link">
+      为什么markdown语法加粗失效
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88obsidian%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/" title="为什么obsidian安装失败" class="md-nav__link">
+      为什么obsidian安装失败
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88typora%E4%B8%8A%E7%9A%84md%E6%A0%BC%E5%BC%8F%E5%9C%A8obsidian%E4%B8%8A%E4%B8%8D%E8%83%BD%E7%94%A8/" title="为什么typora上的md格式在obsidian上不能用" class="md-nav__link">
+      为什么typora上的md格式在obsidian上不能用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E4%B8%8D%E5%BF%85%E8%A6%81%E7%9A%84%E6%A0%87%E7%AD%BE/" title="为什么会有不必要的标签" class="md-nav__link">
+      为什么会有不必要的标签
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9C%A8%E7%BC%96%E8%BE%91%E7%95%8C%E9%9D%A2%E5%8E%9F%E6%9C%AC%E5%88%86%E8%A1%8C%E7%9A%84%E6%96%87%E5%AD%97%E4%B8%BA%E4%BD%95%E5%9C%A8%E9%A2%84%E8%A7%88%E7%95%8C%E9%9D%A2%E5%B0%B1%E5%85%A8%E9%83%A8%E5%8F%98%E6%88%90%E4%B8%80%E8%A1%8C%E4%BA%86/" title="为什么在编辑界面原本分行的文字为何在预览界面就全部变成一行了" class="md-nav__link">
+      为什么在编辑界面原本分行的文字为何在预览界面就全部变成一行了
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E6%B5%8F%E8%A7%88%E4%B8%8D%E4%BA%86%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A2%98/" title="为什么我浏览不了社区主题" class="md-nav__link">
+      为什么我浏览不了社区主题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84obsidian%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E7%BC%96%E8%BE%91%EF%BC%88%E5%85%89%E6%A0%87%E4%B8%BA%E7%BB%BF%E8%89%B2%E6%88%96%E5%85%B6%E4%BB%96%E9%A2%9C%E8%89%B2%EF%BC%89/" title="为什么我的obsidian无法正常编辑（光标为绿色或其他颜色）" class="md-nav__link">
+      为什么我的obsidian无法正常编辑（光标为绿色或其他颜色）
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%95%B0%E5%AD%A6%E4%B8%8A%E7%9A%84%E5%87%8F%E5%8F%B7%E5%8F%98%E6%88%90%E4%BA%86%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8/" title="为什么数学上的减号变成了无序列表" class="md-nav__link">
+      为什么数学上的减号变成了无序列表
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      06 大讨论
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="06 大讨论" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        <span class="md-nav__icon md-icon"></span>
+        06 大讨论
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/" title="06 大讨论" class="md-nav__link">
+      06 大讨论
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06.01%20%E5%9D%97%E5%BC%95%E7%94%A8%E9%9C%80%E4%B8%8D%E9%9C%80%E8%A6%81/" title="06.01 块引用需不需要" class="md-nav__link">
+      06.01 块引用需不需要
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06.02%20%E5%AF%B9%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87%E7%9A%84%E5%8F%8D%E6%80%9D/" title="06.02 对知识卡片的反思" class="md-nav__link">
+      06.02 对知识卡片的反思
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06.02.01%20%E6%94%AF%E6%8C%81%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87/" title="06.02.01 支持知识卡片" class="md-nav__link">
+      06.02.01 支持知识卡片
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06.02.02%20%E6%89%B9%E5%88%A4%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87/" title="06.02.02 批判知识卡片" class="md-nav__link">
+      06.02.02 批判知识卡片
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06.03%20%E4%B8%80%E8%AF%8D%E5%A4%9A%E6%84%8F%E7%9A%84%E6%83%85%E5%86%B5/" title="06.03 一词多意的情况" class="md-nav__link">
+      06.03 一词多意的情况
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06%20%E5%A4%A7%E8%AE%A8%E8%AE%BA/06.04%20%E5%AF%B9zk%E7%AC%94%E8%AE%B0%E6%B3%95%E7%9A%84%E8%AE%A8%E8%AE%BA/" title="06.04 对zk笔记法的讨论" class="md-nav__link">
+      06.04 对zk笔记法的讨论
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      07 信息源与贡献者
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="07 信息源与贡献者" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        <span class="md-nav__icon md-icon"></span>
+        07 信息源与贡献者
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/07%20%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/" title="07 信息源与贡献者" class="md-nav__link">
+      07  信息源与贡献者
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/07.01%20%E6%88%91%E8%BF%BD%E8%B8%AA%E7%9A%84%E4%BF%A1%E6%81%AF%E6%BA%90/" title="07.01 我追踪的信息源" class="md-nav__link">
+      07.01 我追踪的信息源
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/1.4.2/" title="1.4.2" class="md-nav__link">
+      1.4.2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/ABC/" title="ABC" class="md-nav__link">
+      ABC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Aki/" title="Aki" class="md-nav__link">
+      Aki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Boninall/" title="Boninall" class="md-nav__link">
+      Boninall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Borber/" title="Borber" class="md-nav__link">
+      Borber
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/D/" title="D" class="md-nav__link">
+      D
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Feng/" title="Feng" class="md-nav__link">
+      Feng
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Jackiexiao/" title="Jackiexiao" class="md-nav__link">
+      Jackiexiao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Leon/" title="Leon" class="md-nav__link">
+      Leon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Licat/" title="Licat" class="md-nav__link">
+      Licat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/M/" title="M" class="md-nav__link">
+      M
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Macdown/" title="Macdown" class="md-nav__link">
+      Macdown
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Rey/" title="Rey" class="md-nav__link">
+      Rey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Ryooo/" title="Ryooo" class="md-nav__link">
+      Ryooo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Silver/" title="Silver" class="md-nav__link">
+      Silver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Struggle_with_me/" title="Struggle with me" class="md-nav__link">
+      Struggle with me
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/Zplusless/" title="Zplusless" class="md-nav__link">
+      Zplusless
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/floatingriver/" title="Floatingriver" class="md-nav__link">
+      Floatingriver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/paprika/" title="Paprika" class="md-nav__link">
+      Paprika
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/silverwings/" title="Silverwings" class="md-nav__link">
+      Silverwings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/zettelkasten.de/" title="Zettelkasten.de" class="md-nav__link">
+      Zettelkasten.de
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E4%B8%80%E8%93%91%E7%83%9F%E9%9B%A8/" title="一蓑烟雨" class="md-nav__link">
+      一蓑烟雨
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/" title="个人介绍" class="md-nav__link">
+      个人介绍
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E4%BD%95%E4%B8%80%E5%8F%A8%E5%8F%A8/" title="何一叨叨" class="md-nav__link">
+      何一叨叨
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E4%BD%99%E5%B0%8F%E8%A5%BF/" title="余小西" class="md-nav__link">
+      余小西
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%81%B6%E5%83%8FA/" title="偶像A" class="md-nav__link">
+      偶像A
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%8D%81%E4%BA%94/" title="十五" class="md-nav__link">
+      十五
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%90%8D%E9%9D%9E%E6%81%92%E5%90%8D/" title="名非恒名" class="md-nav__link">
+      名非恒名
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%98%89%E7%90%86/" title="嘉理" class="md-nav__link">
+      嘉理
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/" title="天天向上" class="md-nav__link">
+      天天向上
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%A7%9A/" title="姚" class="md-nav__link">
+      姚
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%AD%A6%E4%B9%A0%E9%AA%87%E5%AE%A2/" title="学习骇客" class="md-nav__link">
+      学习骇客
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E5%BC%80%E6%99%BA%E5%AD%A6%E5%A0%82/" title="开智学堂" class="md-nav__link">
+      开智学堂
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E6%80%80%E6%8F%A3%E5%8F%AF%E7%88%B1/" title="怀揣可爱" class="md-nav__link">
+      怀揣可爱
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E6%98%9F%E7%82%B9%E6%98%9F/" title="星点星" class="md-nav__link">
+      星点星
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E6%B5%B7%E6%AD%8C/" title="海歌" class="md-nav__link">
+      海歌
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E7%8E%89%E6%A0%91%E8%8A%9D%E5%85%B0/" title="玉树芝兰" class="md-nav__link">
+      玉树芝兰
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E7%8E%8B%E6%A0%91%E4%B9%89/" title="王树义" class="md-nav__link">
+      王树义
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E7%99%BD%E5%AE%AB%E4%B8%BB/" title="白宫主" class="md-nav__link">
+      白宫主
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E7%BE%A4%E5%8F%8B/" title="群友" class="md-nav__link">
+      群友
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E7%BF%B0%E5%A2%A8%E6%B0%B4%E6%9C%A8/" title="翰墨水木" class="md-nav__link">
+      翰墨水木
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E8%88%B9%E9%95%BF/" title="船长" class="md-nav__link">
+      船长
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E8%90%BD%E5%B1%B1%E9%B8%A1/" title="落山鸡" class="md-nav__link">
+      落山鸡
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E8%92%B8%E9%A5%BA/" title="蒸饺" class="md-nav__link">
+      蒸饺
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E8%9A%95%E5%AD%90/" title="蚕子" class="md-nav__link">
+      蚕子
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E9%98%B3%E5%BF%97%E5%B9%B3/" title="阳志平" class="md-nav__link">
+      阳志平
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E9%9D%9B%E8%93%9D%E4%B9%98%E6%96%B9/" title="靛蓝乘方" class="md-nav__link">
+      靛蓝乘方
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E9%A3%8E%E4%BA%86/" title="风了" class="md-nav__link">
+      风了
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      08 文章
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="08 文章" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        <span class="md-nav__icon md-icon"></span>
+        08 文章
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../08%20%E6%96%87%E7%AB%A0/08%20%E6%96%87%E7%AB%A0/" title="08 文章" class="md-nav__link">
+      08 文章
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../08%20%E6%96%87%E7%AB%A0/Markdown%20%E5%AE%9E%E7%8E%B0%E5%9D%97%E7%BA%A7%E5%BC%95%E7%94%A8%E5%8F%8C%E5%90%91%E9%93%BE%E6%8E%A5%E7%9A%84%E6%8E%A2%E7%B4%A2%20by%20D/" title="Markdown 实现块级引用双向链接的探索 by D" class="md-nav__link">
+      Markdown 实现块级引用双向链接的探索 by D
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../08%20%E6%96%87%E7%AB%A0/Obsidian%E7%AC%94%E8%AE%B0%E4%B8%AD%E7%9A%84%E9%82%A3%E4%BA%9BMD%E8%AF%AD%E6%B3%95/" title="Obsidian笔记中的那些MD语法" class="md-nav__link">
+      Obsidian笔记中的那些MD语法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../08%20%E6%96%87%E7%AB%A0/obsidian%E8%B6%85%E9%93%BE%E6%8E%A5%E8%AF%AD%E6%B3%95%E8%AF%A6%E8%BF%B0/" title="Obsidian超链接语法详述" class="md-nav__link">
+      Obsidian超链接语法详述
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-14" type="checkbox" id="nav-14">
+    
+    <label class="md-nav__link" for="nav-14">
+      09 碎记
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="09 碎记" data-md-level="1">
+      <label class="md-nav__title" for="nav-14">
+        <span class="md-nav__icon md-icon"></span>
+        09 碎记
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/09%20%E7%A2%8E%E8%AE%B0/" title="09 碎记" class="md-nav__link">
+      09 碎记
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007220909%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E8%83%BD%E4%B8%8D%E8%83%BD%E6%94%AF%E6%8C%81%E5%8F%8C%E9%93%BE/" title="202007220909印象笔记能不能支持双链" class="md-nav__link">
+      202007220909印象笔记能不能支持双链
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007240732%E5%9D%97%E5%BC%95%E7%94%A8%E5%9C%A8zk%E7%AC%94%E8%AE%B0%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E5%BF%85%E8%A6%81-%E8%90%BD%E5%B1%B1%E9%B8%A1/" title="202007240732块引用在zk笔记中是否有必要 落山鸡" class="md-nav__link">
+      202007240732块引用在zk笔记中是否有必要 落山鸡
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007241026%E5%8D%A1%E7%89%87%E5%8E%9F%E5%AD%90%E5%8C%96-%E5%9B%A2%E5%AD%90%E5%A4%A7%E5%9C%86%E5%B8%85/" title="202007241026卡片原子化 团子大圆帅" class="md-nav__link">
+      202007241026卡片原子化 团子大圆帅
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007241136%E4%B8%80%E5%9C%A8rr%E5%92%8Cob%E4%B8%AD%E4%BD%BF%E7%94%A8zk%E6%96%B9%E6%B3%95%E7%9A%84%E4%B8%80%E7%82%B9%E7%82%B9%E4%BD%93%E4%BC%9Aby%E4%B8%80%E8%93%91%E7%83%9F%E9%9B%A8/" title="202007241136一在rr和ob中使用zk方法的一点点体会by一蓑烟雨" class="md-nav__link">
+      202007241136一在rr和ob中使用zk方法的一点点体会by一蓑烟雨
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007241141%E5%AF%B9202007241136%E5%9B%9E%E5%A4%8Dby%E8%92%B8%E9%A5%BA/" title="202007241141对202007241136回复by蒸饺" class="md-nav__link">
+      202007241141对202007241136回复by蒸饺
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007241156%E5%9D%97%E7%9A%84%E6%A6%82%E5%BF%B5by%20ABC/" title="202007241156块的概念by ABC" class="md-nav__link">
+      202007241156块的概念by ABC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007241339%E5%AD%A6%E7%A7%91%E4%B8%93%E4%B8%9A%E5%AF%B9%E5%9D%97%E5%BC%95%E7%94%A8%E4%BD%BF%E7%94%A8%E5%92%8C%E7%90%86%E8%A7%A3%E7%9A%84%E5%BD%B1%E5%93%8D%20by%E5%BC%A5%E6%81%92%E8%9E%8D/" title="202007241339学科专业对块引用使用和理解的影响 by弥恒融" class="md-nav__link">
+      202007241339学科专业对块引用使用和理解的影响 by弥恒融
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202007281313obsidian%E5%AF%B9%E5%9D%97%E5%BC%95%E7%94%A8%E7%9A%84%E7%90%86%E8%A7%A3By%20Silver/" title="202007281313obsidian对块引用的理解By Silver" class="md-nav__link">
+      202007281313obsidian对块引用的理解By Silver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008042335%E5%85%B3%E4%BA%8E%E5%9D%97%E5%BC%95%E7%94%A8%E5%92%8Cobsidian%E7%9A%84%E5%BB%BA%E8%AE%AEby%E5%A4%A7%E7%88%B1%E6%97%A0%E7%96%86/" title="202008042335关于块引用和obsidian的建议by大爱无疆" class="md-nav__link">
+      202008042335关于块引用和obsidian的建议by大爱无疆
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008051032%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%A8%E8%AE%BAby%E5%81%B6%E5%83%8FA/" title="202008051032可视化讨论by偶像A" class="md-nav__link">
+      202008051032可视化讨论by偶像A
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008061350%E9%98%BF%E9%87%8C%E4%BA%91oss%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A%20by%20%E8%90%BD%E5%B1%B1%E9%B8%A1/" title="202008061350阿里云oss搭建图床 by 落山鸡" class="md-nav__link">
+      202008061350阿里云oss搭建图床 by 落山鸡
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008061354picgo%E5%9B%BE%E5%BA%8A%E7%9A%84%E8%AE%BE%E7%BD%AE%20by%20%E7%BF%B0%E5%A2%A8%E6%B0%B4%E6%9C%A8/" title="202008061354picgo图床的设置 by 翰墨水木" class="md-nav__link">
+      202008061354picgo图床的设置 by 翰墨水木
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008111451zk%E4%B8%AD%E4%B8%89%E7%B1%BB%E5%8D%A1%E7%89%87%E7%9A%84%E4%BD%93%E4%BC%9A%20by%20boninall/" title="202008111451zk中三类卡片的体会 by boninall" class="md-nav__link">
+      202008111451zk中三类卡片的体会 by boninall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008161438%E6%A0%87%E7%AD%BE%E7%9A%84%E5%BA%94%E7%94%A8%20by%20Ryooo/" title="202008161438标签的应用 by Ryooo" class="md-nav__link">
+      202008161438标签的应用 by Ryooo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008181504%20%E5%8F%8C%E5%90%91%E9%93%BE%E6%8E%A5%E7%9A%84%E6%84%8F%E4%B9%89%20by%E9%9B%AA%E6%98%A0/" title="202008181504 双向链接的意义 by雪映" class="md-nav__link">
+      202008181504 双向链接的意义 by雪映
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008261245%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E8%A7%92%E5%BA%A6%E8%BF%98%E6%98%AF%E9%80%89%E6%8B%A9%E4%B8%80%E6%AC%BE%E9%95%BF%E6%9C%9F%E8%BD%AF%E4%BB%B6%20by%20%E8%90%BD%E5%B1%B1%E9%B8%A1/" title="202008261245学术研究角度还是选择一款长期软件 by 落山鸡" class="md-nav__link">
+      202008261245学术研究角度还是选择一款长期软件 by 落山鸡
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008261246%E8%BD%AF%E4%BB%B6%E4%B9%8B%E9%97%B4%E5%8F%AA%E5%85%B7%E6%9C%89%E7%9B%B8%E5%AF%B9%E4%BC%98%E5%8A%BF%EF%BC%8C%E4%B8%8D%E5%A4%AA%E5%8F%AF%E8%83%BD%E5%85%B7%E6%9C%89%E7%BB%9D%E5%AF%B9%E4%BC%98%E5%8A%BF/" title="202008261246软件之间只具有相对优势，不太可能具有绝对优势" class="md-nav__link">
+      202008261246软件之间只具有相对优势，不太可能具有绝对优势
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008271159%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E9%9C%80%E8%A6%81%E7%94%A8%E5%88%B0%E5%9D%97%E5%BC%95%E7%94%A8/" title="202008271159什么时候需要用到块引用" class="md-nav__link">
+      202008271159什么时候需要用到块引用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008271407%E7%94%A8Quicker%E5%BC%95%E7%94%A8PDF/" title="202008271407用Quicker引用PDF" class="md-nav__link">
+      202008271407用Quicker引用PDF
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008272024paprika%E7%9A%84%E5%88%86%E4%BA%AB/" title="202008272024paprika的分享" class="md-nav__link">
+      202008272024paprika的分享
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008280950%E6%B5%8B%E8%AF%95obsidian%E7%9A%84%E9%99%84%E4%BB%B6%E6%94%AF%E6%8C%81/" title="202008280950测试obsidian的附件支持" class="md-nav__link">
+      202008280950测试obsidian的附件支持
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008281248How%20do%20you%20effectively%20keep%20and%20organize%20your%20study%20notes/" title="202008281248How do you effectively keep and organize your study notes" class="md-nav__link">
+      202008281248How do you effectively keep and organize your study notes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008281634IMF%E6%A0%B8%E5%BF%83%E6%98%AFMOC%20by%E5%A7%9A/" title="202008281634IMF核心是MOC by姚" class="md-nav__link">
+      202008281634IMF核心是MOC by姚
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008281800%E5%AF%B9%E2%80%9C%E5%8F%AF%E4%BB%A5%E7%95%99%E7%BB%99%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%9A%84%E7%AC%94%E8%AE%B0%E2%80%9D%E7%9A%84%E8%A7%A3%E9%87%8A/" title="202008281800对“可以留给下一代的笔记”的解释" class="md-nav__link">
+      202008281800对“可以留给下一代的笔记”的解释
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008282248%E5%AF%B9zk%E7%AC%94%E8%AE%B0%E6%B3%95%E7%9A%84%E7%90%86%E8%A7%A3%20by%20SIN/" title="202008282248对zk笔记法的理解 by SIN" class="md-nav__link">
+      202008282248对zk笔记法的理解 by SIN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008292053Epsilon%20Notes%20by%20%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/" title="202008292053Epsilon Notes by 天天向上" class="md-nav__link">
+      202008292053Epsilon Notes by 天天向上
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008300949%E9%9B%AA%E5%B0%8F%E8%B1%B9%E7%BF%BB%E8%AF%91%E7%9A%84%E6%98%AF%E5%8D%A2%E6%9B%BC%E8%87%AA%E8%BF%B0/" title="202008300949雪小豹翻译的是卢曼自述" class="md-nav__link">
+      202008300949雪小豹翻译的是卢曼自述
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008301018%E5%8D%A2%E6%9B%BC%E6%9C%AC%E4%BA%BA%E5%8D%A1%E7%89%87%E7%9A%84%E7%94%B5%E5%AD%90%E5%8C%96%E5%92%8C%E5%8F%AF%E8%A7%86%E5%8C%96/" title="202008301018卢曼本人卡片的电子化和可视化" class="md-nav__link">
+      202008301018卢曼本人卡片的电子化和可视化
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008301246ob%E5%86%85%E6%80%8E%E4%B9%88%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%AF%94%E8%BE%83%E7%A8%B3%E5%81%A5%20by%20%E8%90%BD%E5%B1%B1%E9%B8%A1/" title="202008301246ob内怎么插入图片比较稳健 by 落山鸡" class="md-nav__link">
+      202008301246ob内怎么插入图片比较稳健 by 落山鸡
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008311018obsidian%E5%A6%82%E4%BD%95%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E6%B7%BB%E5%8A%A0%E4%BF%A1%E6%81%AF/" title="202008311018obsidian如何在手机上添加信息" class="md-nav__link">
+      202008311018obsidian如何在手机上添加信息
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008311543%E5%9B%BE%E8%B0%B1%E6%A0%B7%E5%BC%8F/" title="202008311543图谱样式" class="md-nav__link">
+      202008311543图谱样式
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202008312133%E7%A0%81%E4%BA%91%E4%BD%9C%E5%9B%BE%E5%BA%8A%E9%9C%80%E8%A6%81%E5%85%AC%E5%BC%80%E5%BA%93/" title="202008312133码云作图床需要公开库" class="md-nav__link">
+      202008312133码云作图床需要公开库
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009010854YAML%E5%9C%A8markdown%E9%87%8C%E9%9D%A2%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/" title="202009010854YAML在markdown里面可以用来做什么" class="md-nav__link">
+      202009010854YAML在markdown里面可以用来做什么
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009010909%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A2%9E%E5%8A%A0%E4%BA%86%5B%5D%28%29/" title="202009010909为什么增加了[]()" class="md-nav__link">
+      202009010909为什么增加了[]()
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009011209%E7%B2%97%E4%BD%93%E5%8A%A0%E9%A2%9C%E8%89%B2AND%E6%96%9C%E4%BD%93%E6%AD%A3%E5%B8%B8%E5%8C%96%E5%B9%B6%E5%8A%A0%E9%A2%9C%E8%89%B2%20by%20%E5%A7%9A/" title="202009011209粗体加颜色AND斜体正常化并加颜色 by 姚" class="md-nav__link">
+      202009011209粗体加颜色AND斜体正常化并加颜色 by 姚
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009011439/" title="202009011439" class="md-nav__link">
+      202009011439
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009011718%E5%85%B3%E4%BA%8EPARA%E7%9A%84%E8%AE%A8%E8%AE%BA/" title="202009011718关于PARA的讨论" class="md-nav__link">
+      202009011718关于PARA的讨论
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009011929%E6%80%9D%E8%80%83%E7%9A%84%E8%A7%92%E5%BA%A6/" title="202009011929思考的角度" class="md-nav__link">
+      202009011929思考的角度
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009011957%E4%BD%90%E8%97%A4%E5%A4%A7%E7%9A%84%E4%B9%A6%20by%20%E9%A3%8E%E4%BA%86/" title="202009011957佐藤大的书 by 风了" class="md-nav__link">
+      202009011957佐藤大的书 by 风了
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009021635ob%20%E7%94%9F%E6%88%90%20anki%20%E5%8D%A1%20by%C2%A0boninall/" title="202009021635ob 生成 anki 卡 by boninall" class="md-nav__link">
+      202009021635ob 生成 anki 卡 by boninall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009030926notion%E4%B9%9F%E6%9C%89%20%E5%8F%8C%E9%93%BE%E4%BA%86/" title="202009030926notion也有 双链了" class="md-nav__link">
+      202009030926notion也有 双链了
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009031141%E9%9A%90%E8%97%8F%E6%A0%87%E8%AE%B0%20by%20boninall/" title="202009031141隐藏标记 by boninall" class="md-nav__link">
+      202009031141隐藏标记 by boninall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009031625%E7%94%A8iframe%E6%8F%92%E5%85%A5dynalist%20by%20Aki/" title="202009031625用iframe插入dynalist by Aki" class="md-nav__link">
+      202009031625用iframe插入dynalist by Aki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009032259ob%E6%A8%A1%E6%9D%BF%E5%88%86%E4%BA%AB/" title="202009032259ob模板分享" class="md-nav__link">
+      202009032259ob模板分享
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09%20%E7%A2%8E%E8%AE%B0/202009040847%E5%8F%8C%E9%93%BE%E8%BD%AF%E4%BB%B6cerveau/" title="202009040847双链软件cerveau" class="md-nav__link">
+      202009040847双链软件cerveau
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-15" type="checkbox" id="nav-15">
+    
+    <label class="md-nav__link" for="nav-15">
+      10 工具
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="10 工具" data-md-level="1">
+      <label class="md-nav__title" for="nav-15">
+        <span class="md-nav__icon md-icon"></span>
+        10 工具
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/10%20%E5%B7%A5%E5%85%B7/" title="10 工具" class="md-nav__link">
+      10 工具
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/Foam/" title="Foam" class="md-nav__link">
+      Foam
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/Gingko/" title="Gingko" class="md-nav__link">
+      Gingko
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/RoamResearch/" title="RoamResearch" class="md-nav__link">
+      RoamResearch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/Roamedit/" title="Roamedit" class="md-nav__link">
+      Roamedit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/Tiddlywiki/" title="Tiddlywiki" class="md-nav__link">
+      Tiddlywiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/drafts/" title="Drafts" class="md-nav__link">
+      Drafts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/getliner/" title="Getliner" class="md-nav__link">
+      Getliner
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/infranodus/" title="Infranodus" class="md-nav__link">
+      Infranodus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/logseq/" title="Logseq" class="md-nav__link">
+      Logseq
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/picgo/" title="Picgo" class="md-nav__link">
+      Picgo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/quicker/" title="Quicker" class="md-nav__link">
+      Quicker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/vscode/" title="Vscode" class="md-nav__link">
+      Vscode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/zettlr/" title="Zettlr" class="md-nav__link">
+      Zettlr
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/zk%E8%BD%AF%E4%BB%B6/" title="Zk软件" class="md-nav__link">
+      Zk软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/zotero/" title="Zotero" class="md-nav__link">
+      Zotero
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E4%BC%A0%E7%BB%9F%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/" title="传统笔记软件" class="md-nav__link">
+      传统笔记软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E5%8D%A1%E7%89%87%E5%86%99%E4%BD%9C%E8%BD%AF%E4%BB%B6/" title="卡片写作软件" class="md-nav__link">
+      卡片写作软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/" title="印象笔记" class="md-nav__link">
+      印象笔记
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E5%8F%8C%E5%90%91%E8%BF%9E%E6%8E%A5%E7%B1%BB%E8%BD%AF%E4%BB%B6/" title="双向连接类软件" class="md-nav__link">
+      双向连接类软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E5%8F%8C%E9%93%BE%E8%BD%AF%E4%BB%B6/" title="双链软件" class="md-nav__link">
+      双链软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/" title="图床工具" class="md-nav__link">
+      图床工具
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E5%A4%A7%E7%BA%B2%E8%BD%AF%E4%BB%B6/" title="大纲软件" class="md-nav__link">
+      大纲软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/" title="思源笔记" class="md-nav__link">
+      思源笔记
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/" title="文献管理软件" class="md-nav__link">
+      文献管理软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E6%98%93%E7%A0%81/" title="易码" class="md-nav__link">
+      易码
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E7%AE%80%E6%82%A6/" title="简悦" class="md-nav__link">
+      简悦
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10%20%E5%B7%A5%E5%85%B7/%E9%93%BE%E6%BB%B4%E7%AC%94%E8%AE%B0/" title="链滴笔记" class="md-nav__link">
+      链滴笔记
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-16" type="checkbox" id="nav-16">
+    
+    <label class="md-nav__link" for="nav-16">
+      11 高阶教程
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="11 高阶教程" data-md-level="1">
+      <label class="md-nav__title" for="nav-16">
+        <span class="md-nav__icon md-icon"></span>
+        11 高阶教程
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/" title="11 高阶教程" class="md-nav__link">
+      11 高阶教程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%92%8Cobsidian%E8%BF%9E%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" title="和obsidian连用的软件" class="md-nav__link">
+      和obsidian连用的软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A%E6%95%99%E7%A8%8B/" title="图床教程" class="md-nav__link">
+      图床教程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%B8%8Eanki%E8%BF%9E%E7%94%A8/" title="如何与anki连用" class="md-nav__link">
+      如何与anki连用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%B8%8Equicker%E8%BF%9E%E7%94%A8/" title="如何与quicker连用" class="md-nav__link">
+      如何与quicker连用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%B8%8Ezotero%E8%BF%9E%E7%94%A8/" title="如何与zotero连用" class="md-nav__link">
+      如何与zotero连用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%B8%8E%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6%E8%BF%9E%E7%94%A8/" title="如何与同步软件连用" class="md-nav__link">
+      如何与同步软件连用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%B8%8E%E6%A3%80%E7%B4%A2%E8%BD%AF%E4%BB%B6%E8%BF%9E%E7%94%A8/" title="如何与检索软件连用" class="md-nav__link">
+      如何与检索软件连用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9CSS%E6%A0%B7%E5%BC%8F/" title="如何修改CSS样式" class="md-nav__link">
+      如何修改CSS样式
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8%E6%A0%B7%E5%BC%8F/" title="如何修改无序列表样式" class="md-nav__link">
+      如何修改无序列表样式
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%AD%97%E4%BD%93%E5%8A%A0%E7%B2%97/" title="如何字体加粗" class="md-nav__link">
+      如何字体加粗
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85zotero%E6%8F%92%E4%BB%B6/" title="如何安装zotero插件" class="md-nav__link">
+      如何安装zotero插件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AF%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95CSS/" title="如何开启开发者工具调试CSS" class="md-nav__link">
+      如何开启开发者工具调试CSS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5iframe/" title="如何插入iframe" class="md-nav__link">
+      如何插入iframe
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E7%94%BB%E6%B5%81%E7%A8%8B%E5%9B%BE/" title="如何画流程图" class="md-nav__link">
+      如何画流程图
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8Cobsidian%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/" title="如何进行obsidian的版本控制" class="md-nav__link">
+      如何进行obsidian的版本控制
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11%20%E9%AB%98%E9%98%B6%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E6%96%87%E7%8C%AE%E5%BC%95%E7%94%A8/" title="如何进行文献引用" class="md-nav__link">
+      如何进行文献引用
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-17" type="checkbox" id="nav-17">
+    
+    <label class="md-nav__link" for="nav-17">
+      12 笔记模板
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="12 笔记模板" data-md-level="1">
+      <label class="md-nav__title" for="nav-17">
+        <span class="md-nav__icon md-icon"></span>
+        12 笔记模板
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/" title="12 笔记模板" class="md-nav__link">
+      12 笔记模板
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/12.01%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF%20by%E4%B8%80%E8%93%91%E7%83%9F%E9%9B%A8/" title="12.01 笔记模板 by一蓑烟雨" class="md-nav__link">
+      12.01 笔记模板 by一蓑烟雨
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/12.01.01%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF%20by%20Borber/" title="12.01.01 笔记模板 by Borber" class="md-nav__link">
+      12.01.01 笔记模板 by Borber
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../12%20%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF/12.02%20quickTemplate%20by%20boninall/" title="12.02 quickTemplate by boninall" class="md-nav__link">
+      12.02 quickTemplate by boninall
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-18" type="checkbox" id="nav-18">
+    
+    <label class="md-nav__link" for="nav-18">
+      13 obsidian
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="13 obsidian" data-md-level="1">
+      <label class="md-nav__title" for="nav-18">
+        <span class="md-nav__icon md-icon"></span>
+        13 obsidian
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../13%20obsidian/13%20obsidian/" title="13 obsidian" class="md-nav__link">
+      13 obsidian
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../13%20obsidian/13.01%20obsidian%E8%A6%81%E5%87%BA%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%90%97/" title="13.01 obsidian要出移动端吗" class="md-nav__link">
+      13.01 obsidian要出移动端吗
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../13%20obsidian/obsidian%E6%9C%AA%E6%9D%A5%E5%8A%AA%E5%8A%9B%E7%9A%84%E6%96%B9%E5%90%91/" title="Obsidian未来努力的方向" class="md-nav__link">
+      Obsidian未来努力的方向
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-19" type="checkbox" id="nav-19">
+    
+    <label class="md-nav__link" for="nav-19">
+      14 CSS主题
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="14 CSS主题" data-md-level="1">
+      <label class="md-nav__title" for="nav-19">
+        <span class="md-nav__icon md-icon"></span>
+        14 CSS主题
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../14%20CSS%E4%B8%BB%E9%A2%98/14%20CSS%E4%B8%BB%E9%A2%98/" title="14 CSS主题" class="md-nav__link">
+      14 CSS主题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../14%20CSS%E4%B8%BB%E9%A2%98/202008311449%E6%9E%81%E7%AE%80%E4%B8%BB%E9%A2%98%20by%20Silver/" title="202008311449极简主题 by Silver" class="md-nav__link">
+      202008311449极简主题 by Silver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../14%20CSS%E4%B8%BB%E9%A2%98/202008312112%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84CSS%20by%20M/" title="202008312112修改后的CSS by M" class="md-nav__link">
+      202008312112修改后的CSS by M
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../14%20CSS%E4%B8%BB%E9%A2%98/202009011438%E4%B8%93%E6%B3%A8%E8%89%B2%E5%BD%A9%20by%20ABC/" title="202009011438专注色彩 by ABC" class="md-nav__link">
+      202009011438专注色彩 by ABC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../14%20CSS%E4%B8%BB%E9%A2%98/202009011439%E4%B8%93%E6%B3%A8%E8%89%B2%E5%BD%A92%20by%20ABC/" title="202009011439专注色彩2 by ABC" class="md-nav__link">
+      202009011439专注色彩2 by ABC
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-20" type="checkbox" id="nav-20">
+    
+    <label class="md-nav__link" for="nav-20">
+      99 存档
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="99 存档" data-md-level="1">
+      <label class="md-nav__title" for="nav-20">
+        <span class="md-nav__icon md-icon"></span>
+        99 存档
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../99%20%E5%AD%98%E6%A1%A3/99%20%E5%AD%98%E6%A1%A3/" title="99 存档" class="md-nav__link">
+      99 存档
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                  <h1>如何将notion转md</h1>
+                
+                <p>转<a href="../../07%20%E4%BF%A1%E6%81%AF%E6%BA%90%E4%B8%8E%E8%B4%A1%E7%8C%AE%E8%80%85/%E7%8E%8B%E6%A0%91%E4%B9%89/">王树义</a>老师的发言：群里面有没有小伙伴长期用 Notion 的？我做了个 Web 应用，可以批量导出 Notion Pages 为 Markdown，包含正确的中文名称，子页面整合，下载对应图片，保留在线文档存储链接等功能。这样你可以快速把知识库切换到 Roam Research 或者 Obsidian 。Github 链接在这里：<a href="https://github.com/wshuyi/demo-notion-markdown-exporter">https://github.com/wshuyi/demo-notion-markdown-exporter</a> 有详细的使用步骤说明。</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../%E5%A6%82%E4%BD%95%E5%B0%86RoamResearch%E5%AF%BC%E5%85%A5obsidian/" title="如何将RoamResearch导入obsidian" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                如何将RoamResearch导入obsidian
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../%E5%A6%82%E4%BD%95%E5%B0%86tiddlywiki%E8%BD%ACmd/" title="如何将tiddlywiki转md" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                如何将tiddlywiki转md
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
